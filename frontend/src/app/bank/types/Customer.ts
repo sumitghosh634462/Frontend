@@ -1,10 +1,2 @@
-export class Customer {
-  
-
-   
+export class CustomerTS {
 }
-
-
-
-
-
