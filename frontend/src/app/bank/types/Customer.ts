@@ -2,11 +2,11 @@ export class Customer {
     customerId?: string;
     name: string;
     email: string;
-    password:string;
-    username:string;
-    role?:string;
-    
-    constructor(data:any) {
+    password: string;
+    username: string;
+    role?: string;
+
+    constructor(data: any) {
         this.customerId = data.customerId;
         this.name = data.name;
         this.email = data.email;
@@ -14,7 +14,7 @@ export class Customer {
         this.password = data.password;
         this.role = data.role;
     }
-    
+
     displayInfo() {
         console.log(`Customer ID: ${this.customerId}`);
         console.log(`Name: ${this.name}`);
@@ -24,10 +24,9 @@ export class Customer {
         console.log(`Role: ${this.role}`);
         console.log("------");
     }
-    }
-    
-    
-    
-    
-    
-    
+}
+
+
+
+
+
